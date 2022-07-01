@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis cumque possimus temporibus enim laudantium odit illo dicta laboriosam quia, suscipit aperiam iste fugiat, doloribus esse, et nihil? Esse, velit harum!</p>
+    <picture>
+        <source media = "(max-width: 730px)" srcset="images/small.png"   type="image/png">
+        <source media = "(max-width: 1030px)" srcset="images/medium.png" type="image/png">
+        <img src="images/big.png" alt="big_image">
+    </picture>
+
+    <h1>Reprodução de Audios</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, similique soluta nobis ullam reprehenderit ratione, eaque assumenda numquam nisi atque, nulla quia illum at iste nihil magni deleniti eum impedit.</p>
+
+    <audio src="media/audio1.mp3" controls autoplay loop type="audio/mp3">
+    <!--Compatíveis: MP3, WAV, OGG-->
+    </audio>
+
+    <h1>Reprodução de Vídeos</h1>
+    <h2>Vídeos hospedados localmente</h2>
+
+    <video controls poster="media/zoe_poster.jpg" width="550">
+        <source src="media/zoe_lvl_up.mp4">
+        <source src="media/zoe_lvl_up.webm">
+        <!--Compatíveis: MP4, MP4v, OGV, webm-->
+    </video>
+
+    <h2>Vídeos hospedados externamente</h2>
+    <h3>Youtube</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/QE47_KXUmWc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h3>Vimeo</h3>
+    <iframe src="https://player.vimeo.com/video/545711972?h=87a786e516" width="640" height="300" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>

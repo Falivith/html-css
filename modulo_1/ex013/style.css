@@ -1,0 +1,11 @@
+body{
+    background-color: aquamarine;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    color: darkblue;
+    background-color: azure;
+}
+p{
+    text-align: justify;
+}
