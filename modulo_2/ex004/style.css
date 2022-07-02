@@ -1,0 +1,50 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    background-color: aquamarine;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px; 
+}
+
+div > p{
+    display: none;
+}
+
+div:hover > p{
+    display: block;
+    color:aliceblue;
+    background-color: black;
+}
+
+div:hover{
+    color:brown;
+    
+}
+
+a{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:active{
+    color:blueviolet;
+}
+
+a:hover{
+    color: yellow;
+}
+
+.special::after{
+    content: '[link]';
+    text-decoration: none;
+    font-weight: normal;
+    color: red;
+}
