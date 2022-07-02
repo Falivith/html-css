@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+        @font-face {
+            font-family: opensans;
+            src: url(fonts/OpenSans-VariableFont_wdth\,wght.ttf) format('opentype');
+            font-weight: normal;
+            font-size: larger;
+            /* opentype = otf
+               truetype = ttf
+               embedded - opentype
+               truetype - aat (apple advanced typography)
+            */
+        }
+        h1{
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px; 
+        }
+        h2, p{
+            font-family: opensans;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fonte Externa</h1>
+    <p style="font-family: 'Roboto', sans-serif; font-size: 20px">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet quidem, voluptatum quaerat consectetur laboriosam dicta ab labore tempore aliquid exercitationem et, excepturi ullam, cum praesentium incidunt? Nobis voluptatem recusandae aspernatur.</p>
+    <h2>Fonte Externa</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora cumque incidunt, iste ratione fugiat delectus facere voluptas qui ipsam vitae vero nam quia quam corrupti libero deleniti voluptates provident consectetur?</p>
+</body>
+</html>
